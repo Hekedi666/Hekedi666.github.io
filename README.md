@@ -1,3 +1,12 @@
+# Webteknologiat - kurssin tehtävät
+
+Tältä sivulta löytää kaikki tekemäni tehtävät tältä kurssilta.
+
+Tehtävät pääsee näkemään painamalla kyseisen tehtävän linkkiä.
+
+## Tehtävä 1: HTML
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Hekedi666/Webteknologiat/edit/main/README.md) to maintain and preview the content for your website in Markdown files.

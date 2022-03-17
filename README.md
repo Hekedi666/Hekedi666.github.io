@@ -1,10 +1,46 @@
-# Webteknologiat - kurssin tehtävät
+## Webteknologiat - kurssin tehtävät
 
 Tältä sivulta löytää kaikki tekemäni tehtävät tältä kurssilta.
 
 Tehtävät pääsee näkemään painamalla kyseisen tehtävän linkkiä.
 
 ## Tehtävä 1: HTML
+
+[HTML](https://github.com/Hekedi666/Hekedi666.github.io/blob/f72149be027488a0041bcc6bf7c7f2664ae2f4b4/tehtava_1.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Welcome to GitHub Pages

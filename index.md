@@ -12,3 +12,10 @@ Tehtävät pääsee näkemään painamalla kyseisen tehtävän linkkiä.
 
 [Lomake](https://github.com/Hekedi666/Hekedi666.github.io/blob/3119c7f40c2663c4770a1d4a15d55d414fddff66/lomake.html)
 
+
+
+
+
+
+
+Miten tätä hommaa ajetaan?

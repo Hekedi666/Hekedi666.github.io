@@ -1,0 +1,63 @@
+a {
+	margin: 15px;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+.otsikko {
+	color: #5411a6;
+	margin: 15px;
+	background-color: grey;
+	width: 140px;
+	text-align: center;
+	padding: 5px;
+}
+
+p {
+	color: #5411a6;
+	margin: 15px;
+	background-color: grey;
+}
+
+.flex-container {
+	background-color: #5928bd;
+	width: 60%;
+	height: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: space-around;
+	justify-content: space-around;
+}
+
+.korostus {
+	background-color: #7f00ba;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	margin: 15px;
+}
+
+.tooltippi {
+	margin: 15px;
+}
+
+.scrolli {
+	height: 150px;
+	width: 250px;
+	color: #5cabfa;
+	margin: 15px;
+}
+
+
+
+

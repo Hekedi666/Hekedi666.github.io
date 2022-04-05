@@ -115,8 +115,8 @@ h2 {
 	width: 300px;
 	height: 40%;
 	position: absolute;
-	right: 5px;
-	top: 15%
+	right: 5px !important;
+	top: 15%;
 }
 
 .karuselli {

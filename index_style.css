@@ -1,78 +1,14 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 .keho {
 	background-image: url("tausta.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-}
-
-.otsikko {
-	width: 40%;
-	height: 55px;
-	padding-bottom: 15px;
-	position: absolute;
-	left: 30%;
-	top: 10px;
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	border-radius: 15px;
-	color: #ffffff;
-	background-image: url("banner.jpg");
-}
-
-.teht_linkki_yks {
-	width: 300px;
-	height: 100px;
-	text-align: center;
-	padding: 5px;
-	position: absolute;
-	left: 15%;
-	top: 100px;
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("banner.jpg");
-	border-radius: 15px;
-}
-
-.teht_linkki_kaks {
-	width: 300px;
-	height: 100px;
-	text-align: center;
-	padding: 5px;
-	position: absolute;
-	left: 33%;
-	top: 100px;
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("banner.jpg");
-	border-radius: 15px;
-}
-
-.teht_linkki_kol {
-	width: 300px;
-	height: 100px;
-	text-align: center;
-	padding: 5px;
-	position: absolute;
-	right: 33%;
-	top: 100px;
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("banner.jpg");
-	border-radius: 15px;
-}
-
-.teht_linkki_nel {
-	width: 300px;
-	height: 100px;
-	text-align: center;
-	padding: 5px;
-	position: absolute;
-	right: 15%;
-	top: 100px;
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("banner.jpg");
-	border-radius: 15px;
-}
-
-h2 {
-	color: #ffffff;
 }
 
 a:link {
@@ -86,6 +22,170 @@ a:visited {
 a:hover {
 	color: red;
 }
+
+.otsikko {
+	width: 40%;
+	height: 55px;
+	padding-bottom: 15px;
+	position: absolute;
+	left: 30%;
+	top: 10px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif !important;
+	border-radius: 15px;
+	color: #ffffff;
+	background-image: url("banner.jpg");
+}
+
+h1 {
+	font-size: 30px !important;
+}
+
+p {
+	color: white;
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 20px !important;
+}
+
+.rivi {
+	position: absolute;
+	height: 15%;
+	width: 70%;
+	top: 100px;
+	left: 5%;
+	right: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+.teht_linkki_yks {
+	order: 1;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+
+.teht_linkki_kaks {
+	order: 2;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+
+.teht_linkki_kol {
+	order: 3;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+
+.teht_linkki_nel {
+	order: 4;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+
+.sivu_banneri {
+	width: 300px;
+	height: 40%;
+	position: absolute;
+	right: 5px;
+	top: 15%
+}
+
+.karuselli {
+	position: absolute;
+	height: 600px;
+	width: 70%;
+	top: 25%;
+	left: 5%;
+	right: 15%;
+}
+
+.css_eka {
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+	position: absolute;
+	left: 0px;
+}
+
+.infolaatikko {
+	position: absolute;
+	top: 120%;
+	left: 10%;
+	width: 800px;
+	height: 700px;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	background-image: url("banner.jpg");
+	border-radius: 15px;
+	color: white;
+	font-size: 16px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

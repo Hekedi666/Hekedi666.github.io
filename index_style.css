@@ -1,11 +1,10 @@
 
-
 html {
   scroll-behavior: smooth;
 }
 
 .keho {
-	background-image: url("tausta.jpg");
+	background-image: url("images/tausta.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -25,8 +24,7 @@ a:hover {
 
 .otsikko {
 	width: 40%;
-	height: 55px;
-	padding-bottom: 15px;
+	height: 70px;
 	position: absolute;
 	left: 30%;
 	top: 10px;
@@ -34,7 +32,7 @@ a:hover {
 	font-family: Arial, Helvetica, sans-serif !important;
 	border-radius: 15px;
 	color: #ffffff;
-	background-image: url("banner.jpg");
+	background-image: url("images/banner.jpg");
 }
 
 h1 {
@@ -70,7 +68,7 @@ h2 {
 	text-align: center;
 	padding: 5px;
 	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("banner.jpg");
+	background-image: url("images/banner.jpg");
 	border-radius: 15px;
 	font-size: 20px !important;
 }
@@ -82,7 +80,7 @@ h2 {
 	text-align: center;
 	padding: 5px;
 	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("banner.jpg");
+	background-image: url("images/banner.jpg");
 	border-radius: 15px;
 	font-size: 20px !important;
 }
@@ -94,7 +92,7 @@ h2 {
 	text-align: center;
 	padding: 5px;
 	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("banner.jpg");
+	background-image: url("images/banner.jpg");
 	border-radius: 15px;
 	font-size: 20px !important;
 }
@@ -106,7 +104,126 @@ h2 {
 	text-align: center;
 	padding: 5px;
 	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("banner.jpg");
+	background-image: url("images/banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+
+.rivi2 {
+	position: absolute;
+	height: 15%;
+	width: 70%;
+	top: 250px;
+	left: 5%;
+	right: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+.teht_linkki_viis {
+	order: 1;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("images/banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+
+.teht_linkki_kuus {
+	order: 2;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("images/banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+
+.teht_linkki_sei {
+	order: 3;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("images/banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+
+.teht_linkki_kasi {
+	order: 4;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("images/banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+
+.rivi3 {
+	position: absolute;
+	height: 15%;
+	width: 70%;
+	top: 400px;
+	left: 5%;
+	right: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+.teht_linkki_ysi {
+	order: 1;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("images/banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+.teht_linkki_kymm {
+	order: 2;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("images/banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+.teht_linkki_yytoo {
+	order: 3;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("images/banner.jpg");
+	border-radius: 15px;
+	font-size: 20px !important;
+}
+.teht_linkki_kaatoo {
+	order: 4;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("images/banner.jpg");
 	border-radius: 15px;
 	font-size: 20px !important;
 }
@@ -115,17 +232,8 @@ h2 {
 	width: 300px;
 	height: 40%;
 	position: absolute;
-	right: 5px !important;
+	right: 5px;
 	top: 15%;
-}
-
-.karuselli {
-	position: absolute;
-	height: 600px;
-	width: 70%;
-	top: 25%;
-	left: 5%;
-	right: 15%;
 }
 
 .css_eka {
@@ -134,7 +242,7 @@ h2 {
 	text-align: center;
 	padding: 5px;
 	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("banner.jpg");
+	background-image: url("images/banner.jpg");
 	border-radius: 15px;
 	font-size: 20px !important;
 	position: absolute;
@@ -149,49 +257,8 @@ h2 {
 	height: 700px;
 	padding: 5px;
 	font-family: Arial, Helvetica, sans-serif !important;
-	background-image: url("banner.jpg");
+	background-image: url("images/banner.jpg");
 	border-radius: 15px;
 	color: white;
 	font-size: 16px !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

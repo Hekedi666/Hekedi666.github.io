@@ -1,0 +1,60 @@
+
+.kontentti {
+    position: absolute;
+    left: 30%;
+    width: 600px;
+    height: 900px;
+}
+
+.kuva {
+    position: absolute;
+    background-color: lightgrey;
+    padding: 15px;
+    left: -15px;
+    border-radius: 20px;
+}
+
+.kuvateksti {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    width: 300px;
+    height: 65px;
+    bottom: 97px;
+    left: 150px;
+    background-color: black;
+    border-radius: 15px;
+    padding-top: -10px;
+}
+
+.napit {
+    position: absolute;
+    align-content: center;
+    padding: 15px;
+    width: 100%;
+    height: 35px;
+    bottom: 30px;
+    left: -15px;
+    border-radius: 15px;
+    background-color: dimgrey;
+}
+
+.napit2 {
+    position: inherit;
+    width: 164px;
+    left: 218px;
+    top: 5px;
+}
+
+.lefti {
+    font-size: 40px;
+}
+
+.paussi {
+    font-size: 40px;
+}
+
+.raitti {
+    font-size: 40px;
+}

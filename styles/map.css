@@ -1,0 +1,34 @@
+
+body {
+    height: 1000px;
+}
+
+.jutut {
+    position: absolute;
+    left: 60px;
+    top: 44px;
+}
+
+.nyyh {
+    position: absolute;
+    left: 60px;
+}
+
+.kis {
+    position: absolute;
+    left: 226px;
+}
+
+.freimi{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.freem {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    left: 60px;
+    top: 70px;
+}

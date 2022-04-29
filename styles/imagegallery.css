@@ -1,0 +1,39 @@
+
+.grid-cont {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 150px;
+    width: 1000px;
+    height: 700px;
+    top: 200px;
+    left: 400px;
+}
+
+.list-cont {
+    position: absolute;
+    display: block;
+    width: 350px;
+    height: 1650px;
+    top: 200px;
+    left: 400px;
+}
+
+button {
+    font-size: 40px;
+}
+
+.napit {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+
+img {
+    padding: 0px;
+}
+
+button {
+    padding: 10px;
+}

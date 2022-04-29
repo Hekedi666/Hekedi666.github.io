@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>HTML script Tag</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="styles/carousel.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    </head>
+
+    <body>
+
+        <div class="kontentti">
+            <div class="kuva">
+
+                <img id="karuselli" width="600" height="700">
+
+            </div>
+            <div class="kuvateksti">
+
+                <p id="namme" class="namme">- - - - - -</p>
+
+            </div>
+            <div class="napit">
+                <div class="napit2">
+                    <button class="lefti" id="lefti" onclick="moveLeft()">
+                        <i class="bi bi-arrow-left-square-fill"></i>
+                    </button>
+                    <button class="paussi" id="paussi" onclick="pauseShow()">
+                        <i class="bi bi-play-btn-fill"></i>
+                    </button>
+                    <button class="raitti" id="raitti" onclick="moveRight()">
+                        <i class="bi bi-arrow-right-square-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <script defer src="scripts/carousel.js"></script>
+    </body>
+
+</html>

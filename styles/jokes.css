@@ -1,0 +1,19 @@
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.overlay {
+    display: none;
+    width: 150px;
+    height: 150px;
+}
+
+.body.loading {
+    display: hidden;
+}
+
+body.loading .overlay {
+    display: block;
+}

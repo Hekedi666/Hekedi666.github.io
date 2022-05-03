@@ -25,8 +25,10 @@ $("#btn").click(function() {
             }, 3000);
         },
         error: function (jqxhr, textStatus, error) {
-            console.log("Error: " + textStatus);
-            $("#account-data").append("<br>" + "<i>" + "Ei löydy" + "</i>");
+            setTimeout(function() {
+                console.log("Error: " + textStatus);
+                $("#account-data").append("<br>" + "<i>" + "Ei löydy" + "</i>");
+            });
         },
     });
 });

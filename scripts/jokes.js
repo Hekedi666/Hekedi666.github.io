@@ -15,7 +15,6 @@ $("#btn").click(function() {
         type: "GET",
         dataType: "json",
         success: function (response) {
-
             setTimeout(function() {
                 $("#account-data").append("<br>" + "<i>" + response.name + "</i>");
                 $("#account-data").append("<br>" + "<i>" + response.bio + "</i>");
@@ -28,7 +27,7 @@ $("#btn").click(function() {
             setTimeout(function() {
                 console.log("Error: " + textStatus);
                 $("#account-data").append("<br>" + "<i>" + "Ei löydy" + "</i>");
-            });
+            }, 3000);
         },
     });
 });
